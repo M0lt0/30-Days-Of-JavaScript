@@ -83,19 +83,18 @@ let mixSentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $
 let salarySentence =  'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.';
 let arr = salarySentence.split(" ");
 let  salary;
-function calc(arr, i){
-console.log(arr[i])
+function calc(arr){
+
 for(let i = 0 ; i < arr.length; i++){
-    // if( i.valueOf() == i.parseInt){
-    //     salary += salary ;
-    // }
-    console.log(i.valueOf())
+    if( Number(arr.at(i)) == Number()){
+        salary =+ salary ;
+    }
 }
 }
 console.log(love.search(reg)); // need t check
 console.log(bec.match('because'));
 console.log(mixSentence.replace(/%$@&#/g," ")); // need t check
-console.log();
+console.log(salary);
 
 
 
