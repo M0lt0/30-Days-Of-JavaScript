@@ -61,12 +61,24 @@ console.log(date.getHours());
 console.log(date.getMinutes());
 console.log(date.getMinutes());
 console.log(date.getFullYear()/4);  //Find out the numbers of seconds elapsed from January 1, 1970 to now.
-
+console.log('----------------------------------------------------------------------------------------');
 //Exercises: Level 2
 
+//first script
+const butnOne = document.getElementById('perimeter')
+const butnTown = document.getElementById('area')
+
+butnOne.addEventListener('click',areaCalc)
+butnTown.addEventListener('click',perimCalc)
 
 
 
+function areaCalc(){
+let base = prompt('please enter the triangle');
+let height = prompt('please enter the height');
+console.log(base, height)
+}
+function perimCalc(){}
 
 
 
